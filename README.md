@@ -48,7 +48,7 @@ $htmlHeader = '<!DOCTYPE html>
 $htmlFooter = "</body>\n</html>";
 ```
 
-Then, to test it out, check out our example instantiation and so
+Then, to test it out, check out our example instantiation and some code to generate an XML of the puzzle.
 
 ```php
 // Test it out! This is an "extreme" level difficulty Sudoku puzzle, which is solveable by our dual-algorithmic solver.
