@@ -51,7 +51,7 @@ $htmlFooter = "</body>\n</html>";
 Then, to test it out, check out our example instantiation and some code to generate an XML of the puzzle.
 
 ```php
-// Test it out! This is an "extreme" level difficulty Sudoku puzzle, which is solveable by our dual-algorithmic solver.
+// An "extreme" level difficulty Sudoku puzzle, solvable by our dual-algorithmic solver.
 $dataStr = "004500003050100008030600700000000100001408096090030000000020057000804200500000000";
 // Process this data string into an array of values.
 $dataArr = str_split($dataStr);
