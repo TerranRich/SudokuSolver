@@ -1,8 +1,8 @@
-# SudokuSolver
-This is **SudokuSolver**, a PHP class that solves nearly any valid 3x3 Sudoku puzzle using both logical deduction (first) and recursive brute force (last resort).
+# Sudoku Solver
+This is **Sudoku Solver**, a PHP class (`SudokuPuzzle`) that solves nearly any valid 3x3 Sudoku puzzle using both logical deduction (first) and recursive brute force (last resort). It hasn't been tested with, say, 4x4 grids yet, but support for multiple grid types (or at least guaranteed functionality) is coming soon.
 
 ## Usage
-After including the `SudokuSolver` class (or the `SudokuSolver.php` file), just pass a flat array of 81 numbers to the constructor. They can be strings, but they will be sanitized to integers upon instantiation.
+After including the `SudokuPuzzle` class (or the `SudokuPuzzle.php` file), just pass a flat array of 81 numbers to the constructor. They can be strings, but they will be sanitized to integers upon instantiation.
 
 Then, to solve, use `solve()`, and check the return value. At any point, you can access `getPuzzle()` to retrieve an array representing the original puzzle passed in, and `getSolution` to retrieve an array representing the solution (or the solution so far).
 
